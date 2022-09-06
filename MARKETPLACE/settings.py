@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     'drf_yasg',
     'accounts',
     'rest_authtoken',
+    'shops',
 ]
 
 MIDDLEWARE = [
