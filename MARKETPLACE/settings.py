@@ -5,17 +5,13 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 
-# Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure--z7dm(g@tvx!jk1xf9co33!)b=-=2zd$par=5_few)l$0(y+q1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
-AUTH_USER_MODEL = "accounts.User"
+#AUTH_USER_MODEL = "accounts.User"
 
 # Application definition
 
